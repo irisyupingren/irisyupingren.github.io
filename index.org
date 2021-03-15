@@ -1,0 +1,90 @@
+
+#+html_head: 
+#+html_head_extra: 
+#+html_head_extra: 
+
+#+EXCLUDE_TAGS: noexport
+
+#+begin_export html
+  <h1>Welcome to my research website!</h1>
+  <h2>I'm <a href="https://irisryp.me"> Iris Yuping Ren</a></h2>
+  <br>
+  <div id="bio">
+    <small><p> I am a PhD candidate at the Utrecht University.
+My background: maths, physics, stats (BSc), complex system science (MSc), electrical and computer engineering (MSc), and cultural industry management (BMS).
+I’m interested in Music Information Retrieval (MIR), Functional Programming, Machine Learning and Artificial Intelligence. </p></small>
+  </div>
+  <br>
+  <div id="social">
+    Follow me:
+    <div id="stalker">
+      <a title="Iris Yuping Ren on Google scholar" href="https://scholar.google.nl/citations?user=SfHtFSQAAAAJ&hl=en">
+        <i class="fab fa-google"></i>
+      </a>
+      <a title="Iris Yuping Ren on Github" href="https://github.com/irisyupingren">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a title="Iris Yuping Ren on Twitter" href="https://twitter.com/irisyupingren">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+    </div>
+  </div>
+  <br>
+#+end_export
+#+begin_comment
+      <a title="RSS feed" id="atom" href="posts/rss.xml">
+        <i class="fa fa-rss-square"></i>
+      </a>
+#+end_comment
+* \faNewspaper News
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: post-list
+  :END:
+  
+- <2021-03-15 Mon> Starting to make this new research website and retiring wordpress and googlesite.
+
+* \faBookmark Latest writings
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: post-list
+  :END:
+
+#+INCLUDE: posts/posts.org
+
+Full list at my [[file:./posts/archive.org][my Blog.]]
+
+-----
+
+* \faGraduationCap Publications
+
+
+- Ren, Iris, et al. "A Computational Evaluation of Musical Pattern Discovery Algorithms." arXiv preprint arXiv:2010.12325 (2020).
+- Berit Jassen, Tom Collins, and Iris Yuping Ren, "Algorithmic ability to predict the musical future: Datasets and evaluation". In Proceedings of the 20th International Society for Music Information Retrieval, Delft, the Netherlands, 2019.
+- Orestis Melkonian, Iris Yuping Ren, Wouter Swierstra, and Anja Volk. "What constitutes a musical pattern?". In Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (FARM 2019). ACM, New York, NY, USA, p. 95-105, 2019. DOI: https://doi.org/10.1145/3331543.3342587
+- Analysis by Classification: A Comparative Study of Annotated and Algorithmically Extracted Patterns in Symbolic Music Data. IY Ren, A Volk, W Swierstra, R Veltkamp. International Society of Music Information Retrieval, Paris, France, 2018.
+- Feature Analysis of Repeated Patterns in Dutch Folk Songs using Principal Component Analysis.  IY Ren, HV Koops, D Bountouridis, A Volk, W Swierstra, R Veltkamp. Folk Music Analysis, Thessaloniki, Greece, 2018.
+- Investigating Musical Pattern Ambiguity in a Human Annotated Dataset, IY Ren, O Nieto, HV Koops, A Volk, W Swierstra. International Conference on Music Perception and Cognition/European Society for the Cognitive Sciences of Music. Graz, Germany, 2018.
+- In Search of the Consensus among Musical Pattern Discovery Algorithms. IY Ren, HV Koops, A Volk, W Swierstra. International Society of Music Information Retrieval, Suzhou, China, 2017.
+- Mediant Mixture and “Blue Notes” in Rock: An Exploratory Study. D Temperley, IY Ren, Z Duan. Music Theory Online, 2016. 
+- Using Scale-Free Closed Patterns to Discover Repeated Themes and Sections in Monophonic Music. IY Ren, Z Duan. Music Information Retrieval Evaluation Exchange, New York City, USA, 2016. 
+- “Blue Notes” in Rock: An Exploratory Study. IY Ren, D Temperley, Z Duan. Cognitively Based Music Informatics Research, New York City, USA, 2016.
+- Closed patterns in folk music and other genres. IY Ren. Proceedings of the 6th International Workshop on Folk Music Analysis. Dublin, Ireland. 2016.
+- Exploring the Rules in Species Counterpoint. IY Ren. Conference on Computer Simulation of Musical Creativity, Huddersfield, UK, 2016. 
+- Synchronisation in Music Group Playing. IY Ren, R Doursat, JL Giavitto. International Symposium on Computer Music Multidisciplinary Research, Plymouth, UK, 2015. 
+- Complexity of Music Pattern. IY Ren, C Genio. Student Conference on Complexity Science, Singapore, 2014.
+- Properly coloured paths and cycles in edge coloured graphs. Baoyang Song, Xiaozong Wang, IY Ren. Journal of Shandong University, 2012.
+
+  
+* Presentations
+- [[https://irisyupingren.github.io/presentations/org/FARM2019#/sec-title-slide][FARM2019]]
+- [[https://docs.google.com/presentation/d/1CFfumEuk8m1f8cWa9uMNgL8vHiAdze4ZkGLqu5ZWQSU/edit?usp=sharing][NWD2019]]
+- [[https://docs.google.com/presentation/d/1EyAM6mTq9fKZds4AhveZlm5k_zQz2TxA7eHbZADyzsU/edit?usp=sharing][SMT2020-2021]]
+  
+* \faBook My PhD thesis :noexport:
+Writing in progress.
+
+* \faCode Projects/Code :noexport:
+
+- In collaboration with Orestis: Pattrans
+- In collaboration with HEMAN
+- In collaboration with Darian: PAF
+- In collaboration with Stephan: ANOMIC
