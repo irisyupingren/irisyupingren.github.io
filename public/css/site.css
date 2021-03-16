@@ -1,0 +1,672 @@
+/* https://jgthms.com/web-design-in-4-minutes */
+/* @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500'; */
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,300,600';
+
+body {
+  margin: 0 auto;
+  display: grid;
+  grid-template-area:
+    "main"
+    "footer";
+  /* align-content: space-evenly; */
+  line-height: 1.5;
+  /*color: #566b78;*/
+  /* color: ##222222; */
+  /* background-color: white; */
+  border-top: 10px solid #666;
+  width: 80%;
+  font-family: "open sans", sans-serif;
+  
+  counter-reset: theorem;
+  counter-reset: definition;
+  counter-reset: sidenote-counter;
+
+  color: hsl(0, 5%, 10%);
+  background-color: hsl(210, 20%, 98%);
+
+  text-rendering: optimizeLegibility;
+
+  padding-top: 100px;
+}
+
+
+
+main {
+  grid-area: main;
+  /* border-left: 3px solid #ddd; */
+  /* font: 400 16px/22px "open sans", sans-serif; */
+}
+
+footer {
+  grid-area: footer;
+
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #EEE;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+  body {
+    /* grid-template-columns: 1fr 3fr; */
+    grid-template-areas:
+      "header main"
+      "header footer";
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: "open sans", sans-serif;
+  font-weight: 600;
+}
+
+.post-list.outline-2 h2 {
+  font-size: 0.9rem;
+}
+
+.post-list ul {
+  padding-left: 0;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h1.title {
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Latex style Heading typography */
+h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: 2.625rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 3rem !important;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+pre.example, pre.src, code {
+  font-family: monospace, monospace;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  font-size: 85%;
+}
+
+pre.example, pre.src {
+  overflow-x: scroll;
+  width: 80ch;
+  padding: 0 1em;
+}
+
+
+/* Make links red */
+a,
+a:visited {
+    color: #a00;
+}
+
+a:focus {
+    outline-offset: 2px;
+    outline: 2px solid hsl(220, 90%, 52%);
+}
+
+
+
+
+aside h1, aside h2 {
+  text-align: center;
+}
+
+#preamble img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+    -webkit-border-radius: 50%;
+    width: 128px;
+    height: auto;
+    border: 7px solid #3498db;
+}
+
+.timestamp {
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  color: #aaa;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+section.post-list ul {
+  list-style-type: none;
+}
+
+section.post-list li .timestamp:after {
+  content: " »";
+}
+
+#bio {
+  border-top: 1px dotted #ddd;
+}
+
+#social {
+  font-size: 13px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border-width: 0;
+  border-top-width: 0px;
+  border-top: 1px solid #E1E1E1;
+}
+
+blockquote {
+  background: #f9f9f9;
+
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin-top: 1rem;
+}
+
+
+.subtitle, figcaption {
+  color: #aaa;
+  margin: 0 0 10px 0;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+.figure-number {
+  visibility: hidden;
+}
+
+main img {
+  outline: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stalker i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+/* Format the LaTeX symbol correctly (a higher up, e lower) */
+.latex span:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    vertical-align: 0.28em;
+    margin-left: -0.48em;
+    margin-right: -0.15em;
+    line-height: 1ex;
+}
+
+.latex span:nth-child(2) {
+    text-transform: uppercase;
+    vertical-align: -0.5ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+    line-height: 1ex;
+}
+
+/* Nested ordered list for ToC */
+nav ol {
+  counter-reset: item;
+  padding-left: 2rem;
+}
+nav li {
+  display: block;
+}
+nav li:before {
+  content: counters(item, '.') ' ';
+  counter-increment: item;
+  padding-right: 0.85rem;
+}
+
+/* Center definitions (most useful for display equations) */
+dl dd {
+  text-align: center;
+}
+
+/* Theorem */
+.theorem {
+  counter-increment: theorem;
+  display: block;
+  margin: 12px 0;
+  font-style: italic;
+}
+.theorem::before {
+  content: 'Theorem ' counter(theorem) '. ';
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Lemma */
+.lemma {
+  counter-increment: theorem;
+  display: block;
+  margin: 12px 0;
+  font-style: italic;
+}
+.lemma::before {
+  content: 'Lemma ' counter(theorem) '. ';
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Proof */
+.proof {
+  display: block;
+  margin: 12px 0;
+  font-style: normal;
+  position: relative;
+}
+.proof::before {
+  content: 'Proof. ' attr(title);
+  font-style: italic;
+}
+.proof:after {
+  content: '◾️';
+  position: absolute;
+  right: -12px;
+  bottom: -2px;
+}
+
+/* Definition */
+.definition {
+  counter-increment: definition;
+  display: block;
+  margin: 12px 0;
+  font-style: normal;
+}
+.definition::before {
+  content: 'Definition ' counter(definition) '. ';
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Center align author name, use small caps and add vertical spacing  */
+.author {
+  margin: 0.85rem 0;
+  font-variant-caps: small-caps;
+  text-align: center;
+}
+
+/* Sidenotes */
+
+.sidenote {
+  font-size: 0.8rem;
+  float: right;
+  clear: right;
+  width: 18vw;
+  margin-right: -20vw;
+  margin-bottom: 1em;
+}
+
+.sidenote.left {
+  float: left;
+  margin-left: -20vw;
+  margin-bottom: 1em;
+}
+
+/* (WIP) add border when a sidenote is clicked on */
+.sidenote:target {
+  border: hsl(55, 55%, 70%) 1.5px solid;
+  padding: 0 .5rem;
+  scroll-margin-block-start: 10rem;
+}
+
+/* sidenote counter */
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number::after,
+.sidenote::before {
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* add number in main content */
+.sidenote-number::after {
+  content: counter(sidenote-counter);
+  font-size: 0.7rem;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+
+/* add number in front of the sidenote */
+.sidenote-number ~ .sidenote::before {
+  content: counter(sidenote-counter) ' ';
+  font-size: 0.7rem;
+  top: -0.5rem;
+}
+
+label.sidenote-toggle:not(.sidenote-number) {
+  display: none;
+}
+
+/* sidenotes inside blockquotes are indented more */
+blockquote .sidenote {
+  margin-right: -24vw;
+  width: 18vw;
+}
+
+
+label.sidenote-toggle {
+  display: inline;
+  cursor: pointer;
+}
+
+input.sidenote-toggle {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  label.sidenote-toggle:not(.sidenote-number) {
+    display: inline;
+  }
+  .sidenote {
+    display: none;
+  }
+  .sidenote-toggle:checked + .sidenote {
+    display: block;
+    margin: 0.5rem 1.25rem 1rem 0.5rem;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+  }
+  /* tweak indentation of sidenote inside a blockquote */
+  blockquote .sidenote {
+    margin-right: -25vw;
+    width: 16vw;
+  }
+}
+
+
+/* Better tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  max-width: 100%;
+  border-top: 2.27px solid black;
+  border-bottom: 2.27px solid black;
+  /* display: block; */
+  overflow-x: auto; /* does not work because element is not block */
+  /* white-space: nowrap; */
+  counter-increment: caption;
+}
+/* add bottom border on column table headings  */
+table tr > th[scope='col'] {
+  border-bottom: 1.36px solid black;
+}
+/* add right border on row table headings  */
+table tr > th[scope='row'] {
+  border-right: 1.36px solid black;
+}
+table > tbody > tr:first-child > td,
+table > tbody > tr:first-child > th {
+  border-top: 1.36px solid black;
+}
+table > tbody > tr:last-child > td,
+table > tbody > tr:last-child > th {
+  border-bottom: 1.36px solid black;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  line-height: 1.1;
+}
+
+/* Table caption */
+caption {
+  text-align: left;
+  font-size: 0.923em;
+  /* border-bottom: 2pt solid #000; */
+  padding: 0 0.25em 0.25em;
+  width: 100%;
+  margin-left: 0;
+}
+
+caption::before {
+  content: 'Table ' counter(caption) '. ';
+  font-weight: bold;
+}
+
+/* allow scroll on the x-axis */
+.scroll-wrapper {
+  overflow-x: auto;
+}
+
+/* if a table is wrapped in a scroll wrapper,
+  the table cells shouldn't wrap */
+.scroll-wrapper > table td {
+  white-space: nowrap;
+}
+
+
+
+
+
+/* https://github.com/fniessen/org-html-themes/blob/master/styles/readtheorg/css/htmlize.css */
+.org-bold { /* bold */ font-weight: bold; }
+.org-bold-italic { /* bold-italic */ font-weight: bold; font-style: italic; }
+.org-buffer-menu-buffer { /* buffer-menu-buffer */ font-weight: bold; }
+.org-builtin { /* font-lock-builtin-face */ color: #7a378b; }
+.org-button { /* button */ text-decoration: underline; }
+.org-calendar-today { /* calendar-today */ text-decoration: underline; }
+.org-change-log-acknowledgement { /* change-log-acknowledgement */ color: #b22222; }
+.org-change-log-conditionals { /* change-log-conditionals */ color: #a0522d; }
+.org-change-log-date { /* change-log-date */ color: #8b2252; }
+.org-change-log-email { /* change-log-email */ color: #a0522d; }
+.org-change-log-file { /* change-log-file */ color: #0000ff; }
+.org-change-log-function { /* change-log-function */ color: #a0522d; }
+.org-change-log-list { /* change-log-list */ color: #a020f0; }
+.org-change-log-name { /* change-log-name */ color: #008b8b; }
+.org-comint-highlight-input { /* comint-highlight-input */ font-weight: bold; }
+.org-comint-highlight-prompt { /* comint-highlight-prompt */ color: #00008b; }
+.org-comment { /* font-lock-comment-face */ color: #999988; font-style: italic; }
+.org-comment-delimiter { /* font-lock-comment-delimiter-face */ color: #999988; font-style: italic; }
+.org-completions-annotations { /* completions-annotations */ font-style: italic; }
+.org-completions-common-part { /* completions-common-part */ color: #000000; background-color: #ffffff; }
+.org-completions-first-difference { /* completions-first-difference */ font-weight: bold; }
+.org-constant { /* font-lock-constant-face */ color: #008b8b; }
+.org-diary { /* diary */ color: #ff0000; }
+.org-diff-context { /* diff-context */ color: #7f7f7f; }
+.org-diff-file-header { /* diff-file-header */ background-color: #b3b3b3; font-weight: bold; }
+.org-diff-function { /* diff-function */ background-color: #cccccc; }
+.org-diff-header { /* diff-header */ background-color: #cccccc; }
+.org-diff-hunk-header { /* diff-hunk-header */ background-color: #cccccc; }
+.org-diff-index { /* diff-index */ background-color: #b3b3b3; font-weight: bold; }
+.org-diff-nonexistent { /* diff-nonexistent */ background-color: #b3b3b3; font-weight: bold; }
+.org-diff-refine-change { /* diff-refine-change */ background-color: #d9d9d9; }
+.org-dired-directory { /* dired-directory */ color: #0000ff; }
+.org-dired-flagged { /* dired-flagged */ color: #ff0000; font-weight: bold; }
+.org-dired-header { /* dired-header */ color: #228b22; }
+.org-dired-ignored { /* dired-ignored */ color: #7f7f7f; }
+.org-dired-mark { /* dired-mark */ color: #008b8b; }
+.org-dired-marked { /* dired-marked */ color: #ff0000; font-weight: bold; }
+.org-dired-perm-write { /* dired-perm-write */ color: #b22222; }
+.org-dired-symlink { /* dired-symlink */ color: #a020f0; }
+.org-dired-warning { /* dired-warning */ color: #ff0000; font-weight: bold; }
+.org-doc { /* font-lock-doc-face */ color: #8b2252; }
+.org-escape-glyph { /* escape-glyph */ color: #a52a2a; }
+.org-file-name-shadow { /* file-name-shadow */ color: #7f7f7f; }
+.org-flyspell-duplicate { /* flyspell-duplicate */ color: #cdad00; font-weight: bold; text-decoration: underline; }
+.org-flyspell-incorrect { /* flyspell-incorrect */ color: #ff4500; font-weight: bold; text-decoration: underline; }
+.org-fringe { /* fringe */ background-color: #f2f2f2; }
+.org-function-name { /* font-lock-function-name-face */ color: teal; }
+.org-header-line { /* header-line */ color: #333333; background-color: #e5e5e5; }
+.org-help-argument-name { /* help-argument-name */ font-style: italic; }
+.org-highlight { /* highlight */ background-color: #b4eeb4; }
+.org-holiday { /* holiday */ background-color: #ffc0cb; }
+.org-isearch { /* isearch */ color: #b0e2ff; background-color: #cd00cd; }
+.org-isearch-fail { /* isearch-fail */ background-color: #ffc1c1; }
+.org-italic { /* italic */ font-style: italic; }
+.org-keyword { /* font-lock-keyword-face */ color: #0086b3; }
+.org-lazy-highlight { /* lazy-highlight */ background-color: #afeeee; }
+.org-link { /* link */ color: #0000ff; text-decoration: underline; }
+.org-link-visited { /* link-visited */ color: #8b008b; text-decoration: underline; }
+.org-log-edit-header { /* log-edit-header */ color: #a020f0; }
+.org-log-edit-summary { /* log-edit-summary */ color: #0000ff; }
+.org-log-edit-unknown-header { /* log-edit-unknown-header */ color: #b22222; }
+.org-match { /* match */ background-color: #ffff00; }
+.org-next-error { /* next-error */ background-color: #eedc82; }
+.org-nobreak-space { /* nobreak-space */ color: #a52a2a; text-decoration: underline; }
+.org-org-archived { /* org-archived */ color: #7f7f7f; }
+.org-org-block { /* org-block */ color: #7f7f7f; }
+.org-org-block-begin-line { /* org-block-begin-line */ color: #b22222; }
+.org-org-block-end-line { /* org-block-end-line */ color: #b22222; }
+.org-org-checkbox { /* org-checkbox */ font-weight: bold; }
+.org-org-checkbox-statistics-done { /* org-checkbox-statistics-done */ color: #228b22; font-weight: bold; }
+.org-org-checkbox-statistics-todo { /* org-checkbox-statistics-todo */ color: #ff0000; font-weight: bold; }
+.org-org-clock-overlay { /* org-clock-overlay */ background-color: #ffff00; }
+.org-org-code { /* org-code */ color: #7f7f7f; }
+.org-org-column { /* org-column */ background-color: #e5e5e5; }
+.org-org-column-title { /* org-column-title */ background-color: #e5e5e5; font-weight: bold; text-decoration: underline; }
+.org-org-date { /* org-date */ color: #a020f0; text-decoration: underline; }
+.org-org-document-info { /* org-document-info */ color: #191970; }
+.org-org-document-info-keyword { /* org-document-info-keyword */ color: #7f7f7f; }
+.org-org-document-title { /* org-document-title */ color: #191970; font-size: 144%; font-weight: bold; }
+.org-org-done { /* org-done */ color: #228b22; font-weight: bold; }
+.org-org-drawer { /* org-drawer */ color: #0000ff; }
+.org-org-ellipsis { /* org-ellipsis */ color: #b8860b; text-decoration: underline; }
+.org-org-footnote { /* org-footnote */ color: #a020f0; text-decoration: underline; }
+.org-org-formula { /* org-formula */ color: #b22222; }
+.org-org-headline-done { /* org-headline-done */ color: #bc8f8f; }
+.org-org-hide { /* org-hide */ color: #ffffff; }
+.org-org-latex-and-export-specials { /* org-latex-and-export-specials */ color: #8b4513; }
+.org-org-level-1 { /* org-level-1 */ color: #0000ff; }
+.org-org-level-2 { /* org-level-2 */ color: #a0522d; }
+.org-org-level-3 { /* org-level-3 */ color: #a020f0; }
+.org-org-level-4 { /* org-level-4 */ color: #b22222; }
+.org-org-level-5 { /* org-level-5 */ color: #228b22; }
+.org-org-level-6 { /* org-level-6 */ color: #008b8b; }
+.org-org-level-7 { /* org-level-7 */ color: #7a378b; }
+.org-org-level-8 { /* org-level-8 */ color: #8b2252; }
+.org-org-link { /* org-link */ color: #0000ff; text-decoration: underline; }
+.org-org-meta-line { /* org-meta-line */ color: #b22222; }
+.org-org-mode-line-clock { /* org-mode-line-clock */ color: #000000; background-color: #bfbfbf; }
+.org-org-mode-line-clock-overrun { /* org-mode-line-clock-overrun */ color: #000000; background-color: #ff0000; }
+.org-org-quote { /* org-quote */ color: #7f7f7f; }
+.org-org-scheduled { /* org-scheduled */ color: #006400; }
+.org-org-scheduled-previously { /* org-scheduled-previously */ color: #b22222; }
+.org-org-scheduled-today { /* org-scheduled-today */ color: #006400; }
+.org-org-sexp-date { /* org-sexp-date */ color: #a020f0; }
+.org-org-special-keyword { /* org-special-keyword */ color: #a020f0; }
+.org-org-table { /* org-table */ color: #0000ff; }
+.org-org-tag { /* org-tag */ font-weight: bold; }
+.org-org-target { /* org-target */ text-decoration: underline; }
+.org-org-time-grid { /* org-time-grid */ color: #b8860b; }
+.org-org-todo { /* org-todo */ color: #ff0000; font-weight: bold; }
+.org-org-upcoming-deadline { /* org-upcoming-deadline */ color: #b22222; }
+.org-org-verbatim { /* org-verbatim */ color: #7f7f7f; }
+.org-org-verse { /* org-verse */ color: #7f7f7f; }
+.org-org-warning { /* org-warning */ color: #ff0000; font-weight: bold; }
+.org-outline-1 { /* outline-1 */ color: #0000ff; }
+.org-outline-2 { /* outline-2 */ color: #a0522d; }
+.org-outline-3 { /* outline-3 */ color: #a020f0; }
+.org-outline-4 { /* outline-4 */ color: #b22222; }
+.org-outline-5 { /* outline-5 */ color: #228b22; }
+.org-outline-6 { /* outline-6 */ color: #008b8b; }
+.org-outline-7 { /* outline-7 */ color: #7a378b; }
+.org-outline-8 { /* outline-8 */ color: #8b2252; }
+.org-preprocessor { /* font-lock-preprocessor-face */ color: #7a378b; }
+.org-query-replace { /* query-replace */ color: #b0e2ff; background-color: #cd00cd; }
+.org-regexp-grouping-backslash { /* font-lock-regexp-grouping-backslash */ font-weight: bold; }
+.org-regexp-grouping-construct { /* font-lock-regexp-grouping-construct */ font-weight: bold; }
+.org-region { /* region */ background-color: #eedc82; }
+.org-secondary-selection { /* secondary-selection */ background-color: #ffff00; }
+.org-shadow { /* shadow */ color: #7f7f7f; }
+.org-show-paren-match { /* show-paren-match */ background-color: #40e0d0; }
+.org-show-paren-mismatch { /* show-paren-mismatch */ color: #ffffff; background-color: #a020f0; }
+.org-string { /* font-lock-string-face */ color: #dd1144; }
+.org-tool-bar { /* tool-bar */ color: #000000; background-color: #bfbfbf; }
+.org-tooltip { /* tooltip */ color: #000000; background-color: #ffffe0; }
+.org-trailing-whitespace { /* trailing-whitespace */ background-color: #ff0000; }
+.org-type { /* font-lock-type-face */ color: #228b22; }
+.org-underline { /* underline */ text-decoration: underline; }
+.org-variable-name { /* font-lock-variable-name-face */ color: teal; }
+.org-warning { /* font-lock-warning-face */ color: #ff0000; font-weight: bold; }
+.org-widget-button { /* widget-button */ font-weight: bold; }
+.org-widget-button-pressed { /* widget-button-pressed */ color: #ff0000; }
+.org-widget-documentation { /* widget-documentation */ color: #006400; }
+.org-widget-field { /* widget-field */ background-color: #d9d9d9; }
+.org-widget-inactive { /* widget-inactive */ color: #7f7f7f; }
+.org-widget-single-line-field { /* widget-single-line-field */ background-color: #d9d9d9; }

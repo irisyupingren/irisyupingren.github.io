@@ -1,0 +1,37 @@
+
+#+TITLE: Experience
+
+
+* Professional experience
+- Sep 2019 –   : Utrecht University, Faculty Council, the Netherlands
+- Feb 2017 –   : Utrecht University, Teaching Responsibilities, the Netherlands
+- Jun 2018 – Jun 2019   : Utrecht University, PhD Network Utrecht (Prout), the Netherlands
+- Jan 2018 – Dec 2019: ISMIR[fn:1] Board, Student Member and Newcomer Initiatives Chair
+- Jun 2018 – Nov 2018: Utrecht University, Chinese UU Scholar Association (CUSA), the Netherlands
+- Feb 2018 – Apr 2018: Utrecht University, Hiring Committee, the Netherlands
+- Aug 2015 – Dec 2016: University of Rochester, Research Assistant, Teaching Assistant, USA
+- Jan 2015 – June 2015: INRIA[fn:2], Student Researcher, France
+
+[fn:2] Institut national de recherche en informatique et en automatique
+[fn:1] International Society for Music Information Retrieval
+
+* Programme committee membership
+- Journal of Creative Music Systems (JCMS)
+- Computer Simulation of Musical Creativity 2019 (CSMC 2019)
+- International Workshop on Machine Learning and Music 2019 (MML 2019)
+- International Workshop on Functional Art, Music, Modelling and Design (FARM 2019)
+- International Conference on Live Coding (ICLC 2019)
+- China Conference on Sound and Music Technology (CSMT 2018)
+- International Workshop on Functional Art, Music, Modelling and Design (FARM 2018)
+- Computer Simulation of Musical Creativity 2018 (CSMC 2018)
+- International Conference on Live Coding (ICLC 2018)
+- Computer Simulation of Musical Creativity 2017 (CSMC 2017)
+
+* Outreach
+- EuroVision AI Song Contest collaboration with VPRO, 2020
+- Nationale Wiskunde Dagen (NWD, National Mathematics Days), presentation, 2019
+- Women in Information and Computing Sciences (WICS), open day contribution, 2019
+
+* Life experience
+- RSI: Carpal Tunnel Surgeries, 2020
+

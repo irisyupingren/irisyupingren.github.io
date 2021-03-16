@@ -1,0 +1,34 @@
+
+#+TITLE: Skills 
+
+* Programming:
+- Python, R, Haskell: main language, sample projects and repos I contribute to on github:
+    + A Haskell package for comparing patterns: https://github.com/omelkonian/hs-pattrans
+    + A Haskell package for calculate fractal dimensions in music: https://github.com/VictorCMiraldo/hs-fragem
+    + A Haskell package for orchestrating Christmas bells: https://github.com/lambdacasserole/christmas-bells
+    + The HEMAN dataset: https://github.com/irisyupingren/HEMANanalysis
+    + Counterpoint experiments with Python: https://github.com/irisyupingren/counterpoint
+    + Recreating AlphaGo in Python: https://github.com/Rochester-NRT/RocAlphaGo
+- Matlab, Mathematica, Java, Netlogo, Weka: used for projects
+- Javascript, CSS, HTML: websites and Amazon Mechanical Turk experiments
+- Idris, Scala, Prolog, Ocaml, Coq: basic working proficiency
+- Others: Latex, Vim, Emacs, Bash/Zsh/Fish, GCloud, Jupyter, and other ad-hoc utilities
+
+* Languages:
+- Chinese (Mandarin): Native
+- English: Verbal fluency, writing proficient
+- Japanese: Verbal fluency
+- Dutch: Comprehension
+- French: Comprehension
+- Korean: Beginner
+- German: Beginner
+- Toki Pona: Beginner
+dfdsfa
+* Soft skills:
+- Presentation
+- Writing
+- Management
+- Observation
+- Conflict resolution
+- Intercultural communication
+

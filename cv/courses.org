@@ -1,0 +1,22 @@
+
+#+TITLE: Teaching -- Courses
+#+OPTIONS: toc:nil
+
+* Utrecht University
+- 2019 - 2021, Guest lecture (physical and online versions), SMT
+- Fourth term 2017 - 2018, Information science student final projects
+- Third term 2017 - 2018, Guest lecture in the Sound and Music Technology course
+- Second term 2017 - 2018, Gametechnologie introductieproject
+
+
+* University of Rochester
+- Fall 2015, AME140 Introduction to Audio Music and Engineering
+- Spring 2016, ECE472 Audio Signal Processing
+- Fall 2016, AME140 Introduction to Audio Music and Engineering
+
+
+* Before
+- University level tutoring: complex analysis and ordinary diﬀerential equation, 2012
+- Volunteering: teach English and maths in underdeveloped village, 2011
+- Study project: comparisons of science museums exhibitions, 2010
+- Online tutoring of high school students, 2009-2014
