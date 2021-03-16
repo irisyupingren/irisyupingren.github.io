@@ -6,7 +6,7 @@
 #+EXCLUDE_TAGS: noexport
 
 #+begin_export html
-  <h1>Welcome to my research website!</h1>
+  <h1>Welcome!</h1>
   <h2>I'm <a href="https://irisryp.me"> Iris Yuping Ren</a></h2>
   <br>
   <div id="bio">
