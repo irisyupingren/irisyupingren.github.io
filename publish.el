@@ -288,11 +288,11 @@
          :include '("posts/archive.org" "README.org")
          :exclude (regexp-opt '("research" "others"))
          :base-extension "org"
+         :html-preamble t
+         :html-preamble-format (duncan--pre/postamble-format 'preamble)
          :publishing-directory (expand-file-name "public" (projectile-project-root))
          :publishing-function 'duncan/org-html-publish-site-to-html
          :section-numbers nil
-         :html-preamble t
-         :html-preamble-format (duncan--pre/postamble-format 'preamble)
          :html-postamble t
          :html-postamble-format (duncan--pre/postamble-format 'postamble)
          :html-validation-link nil
@@ -304,10 +304,10 @@
          :recursive t
          :html-preamble t
          :html-preamble-format (duncan--pre/postamble-format 'preamble)
-         :html-postamble t
-         :html-postamble-format (duncan--pre/postamble-format 'postamble)
          :publishing-directory "./public/cv"
          :publishing-function 'org-html-publish-to-html
+         :html-postamble t
+         :html-postamble-format (duncan--pre/postamble-format 'postamble)
          :section-numbers nil
          :with-toc nil)
    (list "projects"
