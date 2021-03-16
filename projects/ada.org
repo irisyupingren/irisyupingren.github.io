@@ -2,7 +2,7 @@
 #+TITLE: Algorithms and Data Analysis
 
 
-#+ATTR_LATEX: :width 10cm :center t
+#+ATTR_LATEX: :width 8cm :center t
 [[./img/ada.png]]
 
 * Focus

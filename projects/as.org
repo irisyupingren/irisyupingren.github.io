@@ -2,7 +2,7 @@
 #+TITLE: Ambiguity and Subjectivity
 
 
-#+ATTR_LATEX: :width 10cm :center t
+#+ATTR_LATEX: :width 8cm :center t
 [[./img/as.png]]
 
 * The HEMAN dataset: A musical pattern annotation dataset. 
