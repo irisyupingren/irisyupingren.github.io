@@ -1,0 +1,23 @@
+
+#+TITLE: Musical Pattern Discovery
+
+
+#+ATTR_LATEX: :width 10cm :center t
+[[./img/mdp.png]]
+
+* Publications
+- Iris Yuping Ren, Anja Volk, Wouter Swierstra, Remco C. Veltkamp "A Computational Evaluation of Musical Pattern Discovery Algorithms." arXiv preprint arXiv:2010.12325 (2020).
+- Berit Jassen, Tom Collins, and Iris Yuping Ren, "Algorithmic ability to predict the musical future: Datasets and evaluation". In Proceedings of the 20th International Society for Music Information Retrieval, Delft, the Netherlands, 2019.
+- Iris Yuping Ren, Anja Volk, Wouter Swierstra, Remco C. Veltkamp, "Analysis by Classification: A Comparative Study of Annotated and Algorithmically Extracted Patterns in Symbolic Music Data". International Society of Music Information Retrieval, Paris, France, 2018.
+- Iris Yuping Ren, Hendrik Vincent Koops, Anja Volk, Wouter Swierstra, "In Search of the Consensus among Musical Pattern Discovery Algorithms". International Society of Music Information Retrieval, Suzhou, China, 2017.
+- Iris Yuping Ren, Zhiyao Duan, Using Scale-Free Closed Patterns to Discover Repeated Themes and Sections in Monophonic Music. Music Information Retrieval Evaluation Exchange, New York City, USA, 2016. 
+- Iris Yuping Ren, "Closed patterns in folk music and other genres". Proceedings of the 6th International Workshop on Folk Music Analysis. Dublin, Ireland. 2016.
+
+
+* MIREX
+
+- [[http://www.google.com/url?q=http%3A%2F%2Fwww.music-ir.org%2Fmirex%2Fwiki%2F2017%3ADiscovery_of_Repeated_Themes_%2526_Sections%2520Current%3A%2520http%3A%2F%2Fwww.music-ir.org%2Fmirex%2Fwiki%2F2018%3APatterns_for_Prediction&sa=D&sntz=1&usg=AFQjCNFHwxa08rpqLu0466YXHWQQJiBnEg][MIREX 2017: Discovery of Repeated Themes & Sections]]
+
+- [[http://www.google.com/url?q=http%3A%2F%2Fwww.music-ir.org%2Fmirex%2Fwiki%2F2018&sa=D&sntz=1&usg=AFQjCNEwrHNDhV1UNV8TJhJp3BSp21e4uA][MIREX 2018: Patterns for Prediction]]
+
+- [[https://www.google.com/url?q=https%3A%2F%2Fwww.music-ir.org%2Fmirex%2Fwiki%2F2019%3APatterns_for_Prediction&sa=D&sntz=1&usg=AFQjCNEJa6MyTMoNK2PoAFgdvophwYvxEw][MIREX 2019: Patterns for Prediction]]

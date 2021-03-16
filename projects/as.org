@@ -1,0 +1,19 @@
+
+#+TITLE: Ambiguity and Subjectivity
+
+
+#+ATTR_LATEX: :width 10cm :center t
+[[./img/as.png]]
+
+* The HEMAN dataset: A musical pattern annotation dataset. 
+
+- Version 1: Six pieces with 12 annotators (ICMPC 2018: https://github.com/irisyupingren/HEMANanalysis)
+- Version 2: Six pieces with 35 annotators (in preparation)
+- Version 3: Six pieces with 13 annotators (in preparation)
+- Version 4: more coming!
+   
+* Publications
+
+- Iris Yuping Ren, Oriol Nieto, Hendrik Vincent Koops, Anja Volk, Wouter Swierstra, "Investigating Musical Pattern Ambiguity in a Human Annotated Dataset". International Conference on Music Perception and Cognition/European Society for the Cognitive Sciences of Music. Graz, Germany, 2018.
+- Matevž Pesek, Darian Tomašević, Iris Yuping Ren, Matija Marolt. An opensource web-based Pattern Annotation Framework - PAF. Late breaking demo. ISMIR 2019. 
+- Stephan Wells, Iris Yuping Ren, Anja Volk. Creating a Tool for Faciltiating and Researching Human Annotation of Musical Patterns. Late breaking demo. ISMIR 2019.

@@ -1,0 +1,22 @@
+
+#+TITLE: Algorithms and Data Analysis
+
+
+#+ATTR_LATEX: :width 10cm :center t
+[[./img/ada.png]]
+
+* Focus
+- Domain knowledge incorporation
+
+- Comparison of algorithms
+
+- Visualisations
+
+
+* Publications
+
+- Iris Yuping Ren, Anja Volk, Wouter Swierstra, Remco C. Veltkamp "A Computational Evaluation of Musical Pattern Discovery Algorithms." arXiv preprint arXiv:2010.12325 (2020).
+
+- Orestis Melkonian, Iris Yuping Ren, Wouter Swierstra, and Anja Volk. "What constitutes a musical pattern?". In Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (FARM 2019). ACM, New York, NY, USA, p. 95-105, 2019. DOI: https://doi.org/10.1145/3331543.3342587
+
+- Iris Yuping Ren, Hendrik Vincent Koops, Dimitrios Bountouridis, Anja Volk, Wouter Swierstra, Remco C. Veltkamp, "Feature Analysis of Repeated Patterns in Dutch Folk Songs using Principal Component Analysis.". Folk Music Analysis, Thessaloniki, Greece, 2018.

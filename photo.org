@@ -1,0 +1,6 @@
+
+#+TITLE: Photos
+
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/photo1.png]]
