@@ -4,3 +4,22 @@
 
 #+ATTR_LATEX: :width 14cm :center t
 [[./photos/photo1.png]]
+
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/3.png]]
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/4.png]]
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/5.png]]
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/6.png]]
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/7.png]]
+
+#+ATTR_LATEX: :width 14cm :center t
+[[./photos/8.png]]
