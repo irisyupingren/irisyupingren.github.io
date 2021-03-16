@@ -1,7 +1,0 @@
-#+TITLE: Blog
-
-* Archive
-- <2019-09-03 Tue>  [[file:2018-08-10-fma-aawm-icmpc-escom/index.org][FMA/AAWM and ICMPC/ESCOM]]
-#+BEGIN_EXPORT html
-<a href='rss.xml'><i class='fa fa-rss-1'></i></a>
-#+END_EXPORT
