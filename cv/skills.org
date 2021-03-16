@@ -23,7 +23,7 @@
 - Korean: Beginner
 - German: Beginner
 - Toki Pona: Beginner
-dfdsfa
+
 * Soft skills:
 - Presentation
 - Writing
@@ -31,4 +31,7 @@ dfdsfa
 - Observation
 - Conflict resolution
 - Intercultural communication
+
+
+
 
