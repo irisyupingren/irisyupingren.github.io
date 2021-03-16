@@ -304,10 +304,10 @@
          :recursive t
          :html-preamble t
          :html-preamble-format (duncan--pre/postamble-format 'preamble)
-         :publishing-directory "./public/cv"
-         :publishing-function 'org-html-publish-to-html
          :html-postamble t
          :html-postamble-format (duncan--pre/postamble-format 'postamble)
+         :publishing-directory "./public/cv"
+         :publishing-function 'org-html-publish-to-html
          :section-numbers nil
          :with-toc nil)
    (list "projects"
