@@ -27,6 +27,9 @@ I’m interested in Music Information Retrieval (MIR), Functional Programming, M
       <a title="Iris Yuping Ren on Twitter" href="https://twitter.com/irisyupingren">
         <i class="fab fa-twitter-square"></i>
       </a>
+      <a title="RSS feed" id="atom" href="posts/rss.xml">
+        <i class="fa fa-rss-square"></i>
+      </a>
     </div>
   </div>
   <br>
