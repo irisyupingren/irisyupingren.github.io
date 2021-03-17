@@ -10,29 +10,20 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Blog</title>
-  <atom:link href="irisyupingren.github.io/rss.xml" rel="self" type="application/rss+xml" />
-  <link>irisyupingren.github.io</link>
+  <atom:link href="archive.html/rss.xml" rel="self" type="application/rss+xml" />
+  <link>archive.html</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 17 Mar 2021 11:37:55 +0100</pubDate>
-  <lastBuildDate>Wed, 17 Mar 2021 11:37:55 +0100</lastBuildDate>
+  <pubDate>Wed, 17 Mar 2021 12:09:48 +0100</pubDate>
+  <lastBuildDate>Wed, 17 Mar 2021 12:09:48 +0100</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.4.4</generator>
   <webMaster>yuping.ren.iris@gmail.com (Iris Yuping Ren)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Blog</title>
-    <link>irisyupingren.github.io</link>
+    <link>archive.html</link>
   </image>
 
 
-  <item>
-    <title>TEST</title>
-    <link>irisyupingren.github.io/posts/2021-03-15-test/index.html</link>
-    <author>yuping.ren.iris@gmail.com (Iris Yuping Ren)</author>
-    <guid isPermaLink="false">irisyupingren.github.io/posts/2021-03-15-test/index.html</guid>
-    <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
-
-    <description><![CDATA[]]></description>
-  </item>
 </channel>
 </rss>

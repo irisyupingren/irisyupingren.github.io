@@ -1,9 +1,2 @@
 #+TITLE: Blog
 
-* [[file:2021-03-15-test/index.org][TEST]]
-:PROPERTIES:
-:RSS_PERMALINK: posts/2021-03-15-test/index.html
-:RSS_TITLE: TEST
-:PUBDATE:  <2021-03-17 Wed>
-:ID:       7BA71031-008F-415C-9459-1ECF17513FD2
-:END:

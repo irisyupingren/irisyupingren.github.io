@@ -254,7 +254,7 @@
          :publishing-directory "./public"
          :publishing-function 'ignore
          ;;:publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "archive.html"
+         :html-link-home "https://irisyupingren.github.io/"
          :html-link-use-abs-url t
          :auto-sitemap t
          :sitemap-style 'list
@@ -287,7 +287,7 @@
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "archive.html"
+         :html-link-home "https://irisyupingren.github.io/"
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
