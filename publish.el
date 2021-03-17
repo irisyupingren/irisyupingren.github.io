@@ -241,6 +241,7 @@
          :auto-sitemap t
          :sitemap-filename "posts.org"
          :sitemap-style 'list
+         :sitemap-title iris-title
          :sitemap-title nil
          :sitemap-sort-files 'anti-chronologically
          :sitemap-function 'duncan/latest-posts-sitemap-function
@@ -253,10 +254,11 @@
          :publishing-directory "./public"
          :publishing-function 'ignore
          ;;:publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "irisyupingren.github.io"
+         :html-link-home "archive.html"
          :html-link-use-abs-url t
          :auto-sitemap t
          :sitemap-style 'list
+         :sitemap-title iris-title
          :sitemap-filename  "archive.org"
          :sitemap-sort-files 'anti-chronologically
          :sitemap-function 'duncan/archive-sitemap-function
