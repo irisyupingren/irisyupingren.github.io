@@ -281,7 +281,7 @@
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "irisyupingren.github.io"
+         :html-link-home "archive.html"
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
