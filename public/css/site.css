@@ -158,11 +158,6 @@ aside h1, aside h2 {
   text-align: center;
 }
 
-#preamble img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .avatar {
     -webkit-border-radius: 50%;

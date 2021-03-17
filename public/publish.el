@@ -45,7 +45,7 @@
          (posts (duncan/org-publish-sitemap--valid-entries posts)))
     (concat (format "#+TITLE: %s\n\n* %s\n" title subtitle)
             (org-list-to-org (cons (car sitemap) posts))
-            "\n#+BEGIN_EXPORT html\n<a href='rss.xml'><i class='fa fa-rss-1'></i></a>\n#+END_EXPORT\n")
+            "\n#+BEGIN_EXPORT html\n<a href='rss.xml'><i class='fa fa-rss'></i></a>\n#+END_EXPORT\n")
     ))
 
 (defun duncan/archive-sitemap-format-entry (entry style project)
@@ -250,7 +250,7 @@
          :publishing-directory "./public"
          :publishing-function 'ignore
          ;;:publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "irisyupingren.github.io/org"
+         :html-link-home "irisyupingren.github.io"
          :html-link-use-abs-url t
          :auto-sitemap t
          :sitemap-style 'list
@@ -277,7 +277,7 @@
          :recursive t
          :exclude "."
          :include '("posts/rss.org")
-         :exclude (regexp-opt '("posts.org" "archive.org" "rss.org" "research" "others"))
+         :exclude (regexp-opt '("posts.org" "archive.org" "rss.org" "pattrans"))
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'duncan/org-rss-publish-to-rss
@@ -286,13 +286,13 @@
    (list "site"
          :base-directory "./"
          :include '("posts/archive.org" "README.org")
-         :exclude (regexp-opt '("research" "others"))
+         :exclude (regexp-opt '("pattrans"))
          :base-extension "org"
+         :html-preamble t
+         :html-preamble-format (duncan--pre/postamble-format 'preamble)
          :publishing-directory (expand-file-name "public" (projectile-project-root))
          :publishing-function 'duncan/org-html-publish-site-to-html
          :section-numbers nil
-         :html-preamble t
-         :html-preamble-format (duncan--pre/postamble-format 'preamble)
          :html-postamble t
          :html-postamble-format (duncan--pre/postamble-format 'postamble)
          :html-validation-link nil
@@ -324,10 +324,10 @@
          :with-toc nil)
    (list "assets"
          :base-directory "./"
-         :exclude (regexp-opt '("assets" "public" "research" "others"))
+         :exclude (regexp-opt '("assets" "public" "pattrans"))
          :include '("CNAME" "LICENSE" ".nojekyll" "publish.el")
          :recursive t
-         :base-extension (regexp-opt '("jpg" "gif" "png" "js" "svg" "css" "jpeg"))
+         :base-extension (regexp-opt '("jpg" "gif" "png" "js" "svg" "css" "jpeg" "pdf" "html"))
          :publishing-directory "./public"
          :publishing-function 'org-publish-attachment)))
 
@@ -362,6 +362,7 @@
         (org-entities-user
          (quote
           (("faArchive" "\\faArchive" nil "<i aria-hidden='true' class='fa fa-archive'></i>" "" "" "")
+           ("faRss" "\\faRss" nil "<i aria-hidden='true' class='fa fa-rss'></i>" "" "" "")
            ("faBookmark" "\\faBookmark" nil "<i aria-hidden='true' class='fa fa-bookmark'></i>" "" "" "")
            ("faPresentation" "\\faPresentation" nil "<i aria-hidden='true' class='fas fa-presentation'></i>" "" "" "")
            ("faCode" "\\faCode" nil "<i aria-hidden='true' class='fa fa-code'></i>" "" "" "")
