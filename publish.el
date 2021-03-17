@@ -15,6 +15,9 @@
 (require 'ox-publish)
 (require 'projectile)
 
+(defvar iris-title "Iris Yuping Ren's Website"
+  "The title of this site.")
+
 (defun duncan--pre/postamble-format (name)
   "Formats the pre/postamble named NAME by reading a file from the snippets directory."
   `(("en" ,(with-temp-buffer
@@ -269,6 +272,7 @@
          :auto-sitemap t
          :sitemap-style 'list
          :sitemap-filename "rss.org"
+         :sitemap-title iris-title
          :sitemap-function 'duncan/sitemap-for-rss-sitemap-function
          :sitemap-format-entry 'duncan/sitemap-for-rss-sitemap-format-entry)
    ;; generates the rss.xml file from the rss sitemap
