@@ -40,7 +40,7 @@ main {
 footer {
   grid-area: footer;
   min-height: 100px;
-
+  margin-top: 48px;
   font-size: 80%;
   color: #666;
   border-top: 4px solid #EEE;
