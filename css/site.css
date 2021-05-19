@@ -39,6 +39,7 @@ main {
 
 footer {
   grid-area: footer;
+  min-height: 100px;
 
   font-size: 80%;
   color: #666;
