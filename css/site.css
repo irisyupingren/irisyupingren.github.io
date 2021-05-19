@@ -55,6 +55,8 @@ footer {
   }
 }
 
+.header#preamble.status {background: red;}
+
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "open sans", sans-serif;
