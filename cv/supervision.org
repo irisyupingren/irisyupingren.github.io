@@ -7,6 +7,6 @@
   - Erik Scerri, 2019, [[https://dspace.library.uu.nl/handle/1874/383377][An Approach for Automated Pattern Discovery in Symbolic Music with Long Short-Term Memory Neural Networks]]
   - Stephan Wells, 2019, Creating a Tool for Facilitating and Researching Human Annotation of Musical Patterns
 
-* Small project
+* Small project / Capita selecta
   - Kevin Westerbaan, 2020, Using Haskell to investigate patterns in music therapy improvisations 
   - Orestis Melkonian, 2019, Using Haskell to compare human-annotated and automatically extracted patterns in music
