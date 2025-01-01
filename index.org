@@ -1,7 +1,6 @@
 
 #+html_head:
-<meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/irisyupingren/">
-#+html_head_extra: 
+#+html_head_extra: <meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/irisyupingren/">
 #+html_head_extra: 
 
 #+EXCLUDE_TAGS: noexport
