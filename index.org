@@ -1,5 +1,6 @@
 
-#+html_head: 
+#+html_head:
+<meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/irisyupingren/">
 #+html_head_extra: 
 #+html_head_extra: 
 
